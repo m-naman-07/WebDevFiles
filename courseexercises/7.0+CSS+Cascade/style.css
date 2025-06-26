@@ -1,0 +1,28 @@
+/* Don't change the existing CSS. */
+/* you may think that this and {border:10px solid puple;} does the same task but its not like that coz bg colour doesn't affect the border so its totally different here it may seem the same due to the Cascading hierarchy */
+
+#outer-box{
+ background-color: purple;
+}
+/* we didn't had to apply any extra padding anywhere coz every box has the class="box" */
+.box {
+  background-color: blue;
+  padding: 10px;
+}
+
+.inner-box{
+  background-color: red;
+  padding: 10px;
+}
+
+p {
+  color: yellow;
+  margin: 0;
+  padding: 0px;
+}
+
+.white-text{
+  color: white;
+}
+
+

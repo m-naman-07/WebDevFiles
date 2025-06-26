@@ -1,0 +1,28 @@
+/* Write your code here:*/
+
+
+/*group h1 and h2 and make their color blueviolet */
+h1, h2{
+    color: blueviolet;
+}
+/*use child selector to change the first paragraph color to firebrick 
+*/
+.box > p{
+    color: firebrick;
+}
+/*use the descendant selector to color the list items blue
+*/
+.box li{
+    color: blue;
+}
+/*Use chaining selector to color 2nd and 3rd list item seagreen
+*/
+li.done{
+    color: seagreen;
+}
+
+/*Use combining combiners to change the font-size of Other items to 0.5rem
+*/
+ul p.done {
+  font-size: 0.5rem;
+}
